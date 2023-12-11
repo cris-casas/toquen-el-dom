@@ -1,0 +1,31 @@
+body {
+    background-color: #2B0945;
+    margin: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 14%);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 2%;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.full-width {
+    grid-column: 2 / 4;
+    padding: 0 20%;
+}
+
+.grid-item img {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+}
