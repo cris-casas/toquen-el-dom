@@ -29,3 +29,26 @@ body {
     height: auto;
     display: block;
 }
+
+@media (max-width: 768px) {
+
+    .grid-container {
+        grid-template-columns: repeat(4, 18%) 22%;;
+    }
+
+    .full-width {
+        grid-column: 5; /* Cambia grid-column a 5 para posicionarlo en la última columna */
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        padding: 0;
+    }
+
+    #bateria-5 {
+        grid-column-start: 1;
+    }
+}
+
+
+  
+
+  
