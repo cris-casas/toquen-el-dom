@@ -28,11 +28,10 @@ h2 {
   font-weight: 700;
   line-height: normal;
   padding-bottom: 0.5em;
-  margin: 20px;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
-
   h1,
   h2 {
     margin: 20px;
@@ -127,8 +126,4 @@ img {
 .iconos:hover .fondoRosa {
   opacity: 1;
   pointer-events: auto;
-=======
-body{
-    background-image: url(/img/background.jpg);
->>>>>>> 7b7870f0029555dd5af45d354add053a4f5126c0
 }
