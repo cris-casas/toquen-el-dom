@@ -81,6 +81,12 @@ img {
     opacity: 0;
 }
 
+@media (max-width: 768px) {
+    .fondoRosa{
+        width: 186.1px;
+    }
+}
+
 .fondoRosa1 {
     top: 0;
     left: 4%;
@@ -95,8 +101,6 @@ img {
     top: 0;
     left: 70.4%;
 }
-
-
 
 .iconos .fondoLila {
     opacity: 1;
