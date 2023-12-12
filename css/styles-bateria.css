@@ -8,11 +8,21 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
 }
+p{
+    color:azure;
+    font-family: KoHo;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top:0;
+    top: 0;
+}
 
 .botonReturn {
     align-self: flex-start;
-    height: 25%;
-    width: 25%;
+    height: 7%;
+    width: 7%;
 }
 
 i {
@@ -30,11 +40,14 @@ i {
     align-items: center;
     justify-content: center; 
     text-align: center;
-    padding: 2%;
+    padding: 1%;
+    margin-top: -10px;
 }
 
 .grid-item {
     text-align: center;
+    position: relative;
+
 }
 
 .full-width {
@@ -66,8 +79,3 @@ i {
         grid-column-start: 1;
     }
 }
-
-
-  
-
-  
